@@ -60,4 +60,10 @@ button {
     margin-top: 3vh;
     border: none;
     border-radius: 10px;
+    background-color: hsl(25, 97%, 53%);
+    color: $txtColor;
+}
+.numbers p:hover {
+    color: $txtColor;
+    background-color: hsl(25, 97%, 53%);
 }

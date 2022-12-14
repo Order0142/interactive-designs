@@ -65,4 +65,11 @@ button {
   margin-top: 3vh;
   border: none;
   border-radius: 10px;
+  background-color: hsl(25deg, 97%, 53%);
+  color: white;
+}
+
+.numbers p:hover {
+  color: white;
+  background-color: hsl(25deg, 97%, 53%);
 }/*# sourceMappingURL=index.css.map */
