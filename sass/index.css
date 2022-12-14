@@ -8,7 +8,7 @@
 .flex {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -38,5 +38,31 @@ p {
   font-family: "Overpass", sans-serif;
   font-weight: 400;
   color: hsl(217deg, 12%, 63%);
-  line-height: 1.6;
+  line-height: 1.7;
+  margin-top: 2vh;
+}
+
+.star {
+  width: 16%;
+  border: none;
+  background-color: hsl(217deg, 26%, 22%);
+  padding: 20px 20px;
+  border-radius: 30px;
+}
+
+.numbers p {
+  border: none;
+  background-color: hsl(217deg, 26%, 22%);
+  border-radius: 30px;
+  padding: 10px 20px;
+  margin: 15px;
+  margin-left: 0;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 3vh;
+  border: none;
+  border-radius: 10px;
 }/*# sourceMappingURL=index.css.map */
