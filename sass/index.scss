@@ -1,0 +1,40 @@
+@import "./variables";
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+    ;
+}
+body {
+    background-color: $bgColor;
+    width: 100%;
+}
+.main {
+    background-color: hsl(213, 19%, 18%);
+    max-width: 400px;
+    padding: 80px 20px;
+    border-radius: 30px;
+    margin: 200px auto;
+    overflow: hidden;
+}
+h2 {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    padding: 10px 0;
+    color: $txtColor;
+    font-size: 1.8em;
+}
+p {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+    line-height: 1.6;
+}
